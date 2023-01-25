@@ -11,21 +11,23 @@ objects is easy to do in this language.
 
 Context free grammar describes how symbols can be substituted for a 
 collection of other symbols ordered in a specific way. This Context Free language 
-works in the same way, substituting “symbols” for visual “objects” in the previous
-sentence. 
+works in the same way, substituting “symbols” for several basic “objects” 
+in the previous sentence. A concrete example would be that a hexagon can be thought
+of as a collection of 6 equilateral triangles ordered in a honeycomb fashion.
 
-A concrete example would be that a hexagon can be thought of as a collection 
-of 6 equilateral triangles ordered in a honeycomb fashion.
+An additional note on the language's ease to draw in general: Unliked its host
+language - mostly C++ - compiling and generating an image in Context Free takes one
+click of the render button. Doing the same in C++ requires a lot more command line knowledge.
 
 ## What is hard to do in this language? Why is it hard?
 Any sort of “free hand” drawing involving few repeated parts is difficult because 
 manipulations like translation or rotation are relative to some other shape 
 with nuances to which manipulations get applied first. This means that programmers 
 cannot easily leverage primitive shapes offered by the language, and will need to 
-draw lines (ex. path declarations in this language) knowing specific 
+draw lines (ex. path declarations) knowing specific 
 coordinates/magnitudes and connecting these lines to create a free-hand shape.
 
-Since manipulations can be done in different orders, programmers would also need to be 
+Since manipulations can be done in different orderings, programmers would also need to be 
 careful about manipulations between complex shapes (shapes made of many other shapes)
 when running a program if there is a specific intended spacing.
 
@@ -49,8 +51,8 @@ additional shapes is too small to be seen.
 
 ## What do you think is interesting about the ContextFree program you wrote?
 Since the documentation was a bit vague on what it meant by “too small to see”, I wanted to 
-create a program that could “break” - something that runs for a relatively long time with 
-little visual difference. 
+create a program that could “break” - a program that runs for a relatively long time with 
+little visual difference as it runs. 
 
 For my program, I had 2 complex shapes - version 1 is a curve made of circles, and version 2 
 a curve made of alternating triangles and squares. Drawings made with weight of version 1 
