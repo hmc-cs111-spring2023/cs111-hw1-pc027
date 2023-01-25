@@ -26,8 +26,8 @@ Corel is internal to Rascal (its main host language) but external to Java.
 Java/Rascal is not interoperable, so Corel is not a valid program in Java.
 
 # Host language
-(Rascal)[https://www.rascal-mpl.org/]
-Minimal Java (2 libraries)
+- [Rascal](https://www.rascal-mpl.org/)
+- Minimal Java (2 libraries)
 
 # Benefits
 The main benefit of Corel is standardizing the common language (ex. “boil”) 
