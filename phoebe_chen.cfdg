@@ -1,0 +1,22 @@
+startshape interesting
+
+shape interesting 
+rule 10 {
+  version_1 []
+}
+rule 30 {
+  version_2 []
+}
+
+shape version_1 {
+  CIRCLE [ hue 128 sat 1.0 b 0.7 ]
+  version_1 [[ s 0.95 x 1 r -3 ]]
+  interesting [ s 0.5 rotate 30 ]
+}
+
+shape version_2 {
+ TRIANGLE [ hue 25 sat 1.0 b 0.8]
+ SQUARE [[hue 175 sat 1.0 b 0.8 x 0.2 r 45 s 0.5]]
+ version_2 [[ s 0.7 x 1 r 45 ]]
+ interesting [ s 0.5 rotate 20 ]
+}
